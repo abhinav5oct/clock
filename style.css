@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.heading{
+    color:blue;
+    font-size: 5rem ;
+    font-weight: 900;
+}
+.time{
+    color:black;
+    font-size: 5rem;
+    font-weight: 800;
+    
+}
+
+
+.containeer{
+    height: 50%;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(118, 68, 8);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
